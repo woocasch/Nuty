@@ -12,6 +12,11 @@ Repozytorium zawiera przepisane w formacie LilyPond nuty różnych utworów.
 * Wśród nocnej ciszy
 * Przybieżeli do Betlejem
 
+
+### Ćwiczenia
+
+* Płyną chmurki
+
 ## Jak używać
 
 1. Zainstalować aplikację LilyPond [LilyPond](https://lilypond.org/)
