@@ -2,6 +2,7 @@
 
 \header { tagline = ##f }
 \paper {
+	page-count = #1
 }
 
 \layout {
