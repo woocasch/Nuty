@@ -17,6 +17,10 @@ Repozytorium zawiera przepisane w formacie LilyPond nuty różnych utworów.
 
 * Płyną chmurki
 
+### Inne utwory
+
+* Schachtelhalm & Riesenfarn
+
 ## Jak używać
 
 1. Zainstalować aplikację LilyPond [LilyPond](https://lilypond.org/)
