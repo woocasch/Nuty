@@ -33,7 +33,7 @@
 						\relative c' {
 							\numericTimeSignature
 							\time 2/4
-							s8 s s r  | r c16-4( d e8) r | r d16-4( e d8) r | r g,16( a b8) r | r e16-2( d c8) r | \break
+							s8 s s r  | r c16-4( d e8) r | r d16-4( e f8) r | r g,16( a b8) r | r e16-2( d c8) r | \break
 							r c16( d e8) r | r f16-2( e d8) r | r b16-2( a g8) r | r a16-4\>( b c8) \! \bar "|."
 						}
 					}
