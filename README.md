@@ -20,6 +20,7 @@ Repozytorium zawiera przepisane w formacie LilyPond nuty różnych utworów.
 ### Inne utwory
 
 * Schachtelhalm & Riesenfarn
+* G.PH Telemann - Polonez
 
 ## Jak używać
 
