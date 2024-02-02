@@ -10,6 +10,7 @@
 \book {
 	\header {
 		title = "Etiuda 10* (s. 8)"
+        composer = "H. Gnesina"
 	}
 
 	\score {
