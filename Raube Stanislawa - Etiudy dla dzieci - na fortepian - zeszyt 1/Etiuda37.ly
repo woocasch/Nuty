@@ -43,7 +43,7 @@ simileText = \markup { \italic { simile } }
 							\set fingeringOrientations = #'(down)
 							\once\override Slur.extra-offset = #'(0 . 6)
 							\once\override Slur.control-points =
-							#'((1 . -5) (4 . 1) (17 . -6) (23.5 . 0.5))
+							#'((1 . -5) (8 . -1) (16 . -4) (23.5 . 0.5))
 							< c'-3 >8( d c d
 							<<
 								{ \voiceOne
@@ -61,7 +61,7 @@ simileText = \markup { \italic { simile } }
 
 							\once\override Slur.extra-offset = #'(0 . 6)
 							\once\override Slur.control-points =
-							#'((1 . -5) (4 . 1) (15 . -5) (20 . -1))
+							#'((1 . -5) (8 . -1.5) (15 . -5) (20 . -0.5))
 							a8( b a b
 							<<
 								{ \voiceOne
@@ -81,7 +81,7 @@ simileText = \markup { \italic { simile } }
 
 							\once\override Slur.extra-offset = #'(0 . 6)
 							\once\override Slur.control-points =
-							#'((1 . -5) (4 . 1) (16.5 . -5) (21 . 0))
+							#'((1 . -4.25) (8 . -1) (15 . -4) (21 . 1))
 							c'8( d c d
 							<<
 								{ \voiceOne
@@ -101,7 +101,7 @@ simileText = \markup { \italic { simile } }
 							
 							\once\override Slur.extra-offset = #'(0 . 6)
 							\once\override Slur.control-points =
-							#'((1 . -5) (4 . 1) (15 . -5) (19.5 . -1))
+							#'((1 . -5) (4 . -1) (15 . -4) (19 . 0))
 							a8( b a b
 							<<
 								{ \voiceOne
