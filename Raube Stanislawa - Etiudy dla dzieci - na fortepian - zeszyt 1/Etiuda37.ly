@@ -27,8 +27,8 @@ simileText = \markup { \italic { simile } }
 							\set fingeringOrientations = #'(up)
 							r2\p s4 s4\< | r2 r4 c'-.-4\! | b8( c b\> a) r2 | a8-3( b a e) r2\! | \break
 							r2\p s | r2 r4 e'-.-5 | d8( c b a) r2 | a8-1( b c b) r2 | c8-3\f( d e d c4 g) | \break
-							c8( d e d c4 g) | e'8( f g f e4 d | e\> f e2\!) | c8\>-3( d e d c4 g) | c8( d e d c b c a | \break
-							c b c d e4 c | g) d'-. c2\! | r2\p s4\< s4 | r2 r4 c'4-.-4\! | b8\>-3( c b a) r2 | \break
+							c8( d e d c4 g) | e'8( f g f e4 d | e\> f e2\!) | c8\>-3( d e d c4 a) | c8( d e d c b c a | \break
+							c b c d e4 c | g) d'-. c2\! | r2\p s4\< s4 | r2 r4 c4-.-4\! | b8\>-3( c b a) r2 | \break
 							a8( b a e) r2\! | r\p s4 s4 | r2 r4 e'-.-5 | d8-5( c b a g4 a8 b | c4-4) r4 r2
 							 \bar "|."
 						}
