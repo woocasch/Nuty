@@ -1,7 +1,10 @@
 \version "2.22.2"  % necessary for upgrading to future LilyPond versions.
 
+\paper { }
+
 \header {
   title = "Tonacja e minor (moll)"
+  tagline = #f
 }
 
 \score {
@@ -84,6 +87,62 @@
         g'-1 e-2 b-4 g-5
         e'-1 b-2 g-4 e-5
     }
+  }
+  >>
+}
+
+\score {
+  \header {
+    piece = " "
+  }
+  <<
+  \new Staff \relative c' {
+    \key e \minor
+    \repeat volta 2 {
+        e8-1^"pozycja zasadnicza" g-2 b-3 e-1 g-2 b-3 e-5 b-3 g-2 e-1 b-3 g-2
+    }
+    \partial 4 e4-1 \bar "|."
+    \repeat volta 2 {
+        g8-1^"przewrót sekstowy" b-2 e-4 g-1 b-2 e-4 g-5 e-4 b-2 g-1 e-4 b-2
+    }
+    \partial 4 g4-1 \bar "|."
+  }
+
+  \new Staff \relative c, {
+    \clef bass
+    \key e \minor
+    \repeat volta 2 {
+        e8-5 g-4 b-2 e-1 g-4 b-2 e-1 b-2 g-4 e-1 b-2 g-4
+    }
+    e4-5 \bar "|."
+    \repeat volta 2 {
+        g8-5 b-4 e-2 g-1 b-4 e-2 g-1 e-2 b-4 g-1 e-2 b-4
+    }
+    g4-5 \bar "|."
+  }
+  >>
+}
+
+\score {
+  \header {
+    piece = " "
+  }
+  <<
+  \new Staff \relative c' {
+    \key e \minor
+    \repeat volta 2 {
+        b'8-1^"przewrót kwartsekstowy" e-2 g-4 b-1 e-2 g-4 b-5 g-4 e-2 b-1 g-4 e-2
+    }
+    \partial 4 b4-1 \bar "|."
+  }
+
+  \new Staff \relative c, {
+    \clef bass
+    \key e \minor
+    \repeat volta 2 {
+        b'8-5 e-3 g-2 b-1 e-3 g-2 b-1 g-2 e-3 b-1 g-2 e-3
+    }
+    b4-5 \bar "|."
   }
   >>
 }
